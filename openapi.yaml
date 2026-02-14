@@ -1,23 +1,25 @@
 openapi: 3.0.4
 info:
   title: Random Pun
-  description: Random Pun is a simple tool for getting random puns. It returns a random pun from a collection of puns.
+  description: >-
+    Random Pun is a simple tool for getting random puns. It returns a random pun
+    from a collection of puns.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
     email: hello@apiverve.com
     url: https://apiverve.com/contact
-  version: 1.0.9
+  version: 1.0.0
 externalDocs:
   description: Learn more about APIVerve
   url: https://docs.apiverve.com?utm_source=openapi
 servers:
-- url: https://api.apiverve.com/
+  - url: https://api.apiverve.com/
 paths:
   /v1/randompun:
     get:
       summary: Get Random Pun
-      description: Random Pun is a simple tool for getting random puns. It returns a random pun from a collection of puns.
+      description: Get a random pun from a collection of puns
       operationId: randompun
       parameters: []
       responses:
@@ -35,21 +37,31 @@ paths:
                     type: string
                     description: error
                   data:
-                    type: string
+                    type: object
                     description: data
               example:
                 status: ok
-                error: 
+                error: null
                 data:
-                  category: Miscellaneous
-                  rating: 3
-                  pun: If someone with multiple personalities threatens to kill himself, is it considered a hostage situation?
+                  category: Family, Parents
+                  rating: 2
+                  pun: >-
+                    There was this guy who decided he wanted to live with his
+                    gay friends in a nudest colony and so he up and quit his
+                    job, and moved. He was really happy until he got a letter
+                    from his grandma. She told him he was about to die and
+                    wanted a picture of him. He got his friend to take a picture
+                    of him, and sice he had no clothes, he cut the picture in
+                    half. A few weeks later he received another letter from his
+                    grandma telling him he needed to get a haircut because it
+                    made his nose look long.... he soon realized he had sent her
+                    the wrong half.
         '401':
           description: Your request was not authorized, or your API Key was invalid
         '404':
           description: Requested resource was not found
         '500':
-          description: A server error has occured, try again later
+          description: A server error has occurred, try again later
 components:
   securitySchemes:
     api_key:
@@ -57,4 +69,4 @@ components:
       name: x-api-key
       in: header
 security:
-- api_key: []
+  - api_key: []
