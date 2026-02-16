@@ -330,9 +330,10 @@ var response = await apiClient.ExecuteAsync();
 The API client implements `IDisposable` for proper resource cleanup:
 
 ```csharp
+// This API does not require a Query
+
 using (var apiClient = new RandomPunAPIClient("[YOUR_API_KEY]"))
 {
-    // This API does not require a Query
     var response = await apiClient.ExecuteAsync();
     Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented));
 }
