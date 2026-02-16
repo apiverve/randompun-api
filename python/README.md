@@ -218,8 +218,9 @@ from apiverve_randompun.apiClient import RandompunAPIClient
 
 api = RandompunAPIClient("[YOUR_API_KEY]")
 
+# This API does not require a Query
+
 try:
-    # This API does not require a Query
     result = api.execute()
     print(result)
 finally:
