@@ -116,9 +116,9 @@ async function makeRequest() {
   "status": "ok",
   "error": null,
   "data": {
-    "category": "Miscellaneous",
-    "rating": 3,
-    "pun": "If someone with multiple personalities threatens to kill himself, is it considered a hostage situation?"
+    "category": "Family, Parents",
+    "rating": 2,
+    "pun": "There was this guy who decided he wanted to live with his gay friends in a nudest colony and so he up and quit his job, and moved. He was really happy until he got a letter from his grandma. She told him he was about to die and wanted a picture of him. He got his friend to take a picture of him, and sice he had no clothes, he cut the picture in half. A few weeks later he received another letter from his grandma telling him he needed to get a haircut because it made his nose look long.... he soon realized he had sent her the wrong half."
   }
 }
 ```
