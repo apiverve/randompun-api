@@ -51,7 +51,7 @@ Here's a simple example to get you started quickly:
 
 ```csharp
 using System;
-using APIVerve;
+using APIVerve.API.RandomPun;
 
 class Program
 {
@@ -114,7 +114,7 @@ The modern async/await pattern provides the best performance and code readabilit
 ```csharp
 using System;
 using System.Threading.Tasks;
-using APIVerve;
+using APIVerve.API.RandomPun;
 
 public class Example
 {
@@ -144,7 +144,7 @@ If you need to use synchronous code, you can use the `Execute` method:
 
 ```csharp
 using System;
-using APIVerve;
+using APIVerve.API.RandomPun;
 
 public class Example
 {
@@ -179,7 +179,7 @@ The API client provides comprehensive error handling. Here are some examples:
 ```csharp
 using System;
 using System.Threading.Tasks;
-using APIVerve;
+using APIVerve.API.RandomPun;
 
 public class Example
 {
@@ -229,7 +229,7 @@ public class Example
 ```csharp
 using System;
 using System.Threading.Tasks;
-using APIVerve;
+using APIVerve.API.RandomPun;
 
 public class Example
 {
@@ -349,9 +349,9 @@ using (var apiClient = new RandomPunAPIClient("[YOUR_API_KEY]"))
   "status": "ok",
   "error": null,
   "data": {
-    "category": "Miscellaneous",
-    "rating": 3,
-    "pun": "If someone with multiple personalities threatens to kill himself, is it considered a hostage situation?"
+    "category": "Family, Parents",
+    "rating": 2,
+    "pun": "There was this guy who decided he wanted to live with his gay friends in a nudest colony and so he up and quit his job, and moved. He was really happy until he got a letter from his grandma. She told him he was about to die and wanted a picture of him. He got his friend to take a picture of him, and sice he had no clothes, he cut the picture in half. A few weeks later he received another letter from his grandma telling him he needed to get a haircut because it made his nose look long.... he soon realized he had sent her the wrong half."
   }
 }
 ```
