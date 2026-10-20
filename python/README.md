@@ -1,13 +1,12 @@
 Random Pun API
 ============
 
-Random Pun is a simple tool for getting random puns. It returns a random pun from a collection of puns.
+Random Pun retrieves a random pun and its topic category on every request. Each call supplies the full pun text, with paid plans adding an additional humor rating score.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Random Pun API](https://apiverve.com/marketplace/randompun?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-randompun.svg)](https://pypi.org/project/apiverve-randompun/)
+
+This is a Python wrapper for the [Random Pun API](https://apiverve.com/marketplace/randompun?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-randompun
 
 ## Configuration
 
-Before using the randompun API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Random Pun API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -60,7 +59,7 @@ except Exception as e:
 
 ## Usage
 
-The Random Pun API documentation is found here: [https://docs.apiverve.com/ref/randompun](https://docs.apiverve.com/ref/randompun?utm_source=pypi&utm_medium=readme).
+The Random Pun API documentation is found here: [https://docs.apiverve.com/ref/randompun](https://docs.apiverve.com/ref/randompun?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -102,9 +101,9 @@ print(result)
   "status": "ok",
   "error": null,
   "data": {
-    "category": "Miscellaneous",
-    "rating": 3,
-    "pun": "If someone with multiple personalities threatens to kill himself, is it considered a hostage situation?"
+    "category": "Family, Parents",
+    "rating": 2,
+    "pun": "There was this guy who decided he wanted to live with his gay friends in a nudest colony and so he up and quit his job, and moved. He was really happy until he got a letter from his grandma. She told him he was about to die and wanted a picture of him. He got his friend to take a picture of him, and sice he had no clothes, he cut the picture in half. A few weeks later he received another letter from his grandma telling him he needed to get a haircut because it made his nose look long.... he soon realized he had sent her the wrong half."
   }
 }
 ```
@@ -232,7 +231,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -243,12 +242,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
