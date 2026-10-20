@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/randompun",
-  "version": "1.2.0",
-  "description": "Random Pun is a simple tool for getting random puns. It returns a random pun from a collection of puns.",
+  "version": "1.2.2",
+  "description": "Random Pun retrieves a random pun and its topic category on every request. Each call supplies the full pun text, with paid plans adding an additional humor rating score.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "random pun", "random pun api", "random pun tool", "random pun software", "random pun service"
+    "random pun api", "get random puns", "pun generator", "random wordplay", "daily pun"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/randompun-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/randompun?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/randompun?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
