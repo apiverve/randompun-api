@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Random Pun
   description: >-
-    Random Pun is a simple tool for getting random puns. It returns a random pun
-    from a collection of puns.
+    Random Pun retrieves a random pun and its topic category on every request.
+    Each call supplies the full pun text, with paid plans adding an additional
+    humor rating score.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/randompun:
     get:
-      summary: Get Random Pun
+      summary: Random Pun
       description: Get a random pun from a collection of puns
       operationId: randompun
       parameters: []
