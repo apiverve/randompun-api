@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/randompun",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Random Pun retrieves a random pun and its topic category on every request. Each call supplies the full pun text, with paid plans adding an additional humor rating score.",
   "main": "index.js",
   "types": "index.d.ts",
